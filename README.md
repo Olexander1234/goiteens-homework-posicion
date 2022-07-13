@@ -48,3 +48,60 @@
     opacity: 0;
     pointer-events: none;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.img-thumb{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.overlay{
+   position: relative;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-color: rgba(33, 150, 243, 0.9);
+   padding: 63px 24px;
+   margin: 0;
+   font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 1.5;
+/* or 156% */
+
+letter-spacing: 0.03em;
+
+color: #FFFFFF;
+margin-top: -250px;
+
+transform: translateY(100%);
+transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+   
+}
+
+.img-thunb:hover .overlay   {
+transform:translateY(0) ;
+}
